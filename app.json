@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Spa_Booking_For_User",
+    "slug": "Spa_Booking_For_User",
+    "version": "1.0.0",
+    "privacy": "public",
+    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {},
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "bundleIdentifier": "technology.bigbrothers.spabooking"
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "technology.bigbrothers.spabooking"
+    },
+    "extra": {
+      "fileService": {
+        "baseUrl": "https://api.yoko.vn",
+        "clientId": "Vedana",
+        "clientSecret": "P@ss4Vedana!"
+      },
+      "identityServer": {
+        "baseUrl": "https://auth.yoko.vn",
+        "clientId": "VEDANA.APP",
+        "clientSecret": "P@ss4VedanaApp",
+        "scopes": ["vedana_api", "offline_access"]
+      },
+      "google": {
+        "signIn": {
+          "iosClientId": "908173834838-g2pqefa2saq9r5hqi64rrt4sd6blfv80.apps.googleusercontent.com",
+          "androidClientId": "908173834838-lmd9pm5oqdqdo40khpk6qq1tkf61dki3.apps.googleusercontent.com"
+        },
+        "mapApiKey": "AIzaSyAQyg4hxHaC1kAFftQlE3AEPbIbcR3HwBg"
+      },
+      "vedanaApi": {
+        "baseUrl": "https://api.yoko.vn"
+      }
+    }
+  }
+}
